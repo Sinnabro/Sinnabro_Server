@@ -1,0 +1,19 @@
+{
+  "name": "sinnabro_server",
+  "version": "1.0.0",
+  "description": "신나브로 프로젝트 1학년 NodeJS 서버입니다.",
+  "main": "app.js",
+  "repository": "https://github.com/Sinnabro/Sinnabro_Server.git",
+  "author": "applely25 <kimgyuha123@naver.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0"
+  }
+}
